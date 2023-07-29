@@ -12,7 +12,7 @@ def main():
     while attempts < brain_games.engine.ROUND_COUNT:
         rand_numb1 = randint(MIN_NUMBER, MAX_NUMBER)
         rand_numb2 = randint(MIN_NUMBER, MAX_NUMBER)
-        question = f'{rand_numb1}  {rand_numb2}'
+        question = f'{rand_numb1} {rand_numb2}'
         correct_answer = str(gcd(rand_numb1, rand_numb2))
         quest_and_ans.append((question, correct_answer))
         attempts += 1
