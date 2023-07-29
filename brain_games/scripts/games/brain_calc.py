@@ -1,10 +1,10 @@
 import brain_games.engine
 from random import randint
 
-min_number = 1
-max_number = 20
-min_number_op = 0
-max_number_op = 2
+MIN_NUMBER = 1
+MAX_NUMBER = 20
+MIN_NUMBER_OP = 0
+MAX_NUMBER_OP = 2
 operators = ['+', '-', '*']
 exercise = "What is the result of the expression?"
 
@@ -13,9 +13,9 @@ def main():
     attempts = 0
     quest_and_ans = []
     while attempts < brain_games.engine.ROUND_COUNT:
-        rand_numb1 = randint(min_number, max_number)
-        rand_numb2 = randint(min_number, max_number)
-        rand_operator = randint(min_number_op, max_number_op)
+        rand_numb1 = randint(MIN_NUMBER, MAX_NUMBER)
+        rand_numb2 = randint(MIN_NUMBER, MAX_NUMBER)
+        rand_operator = randint(MIN_NUMBER_OP, MAX_NUMBER_OP)
         operator = operators[rand_operator]
         question = f'{rand_numb1} {operator} {rand_numb2}'
         correct_answer = str(to_calc(rand_numb1, rand_numb2, operator))

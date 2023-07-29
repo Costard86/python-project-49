@@ -1,8 +1,8 @@
 import brain_games.engine
 from random import randint
 
-min_number = 1
-max_number = 30
+MIN_NUMBER = 1
+MAX_NUMBER = 30
 exercise = "Find the greatest common divisor of given numbers."
 
 
@@ -10,8 +10,8 @@ def main():
     attempts = 0
     quest_and_ans = []
     while attempts < brain_games.engine.ROUND_COUNT:
-        rand_numb1 = randint(min_number, max_number)
-        rand_numb2 = randint(min_number, max_number)
+        rand_numb1 = randint(MIN_NUMBER, MAX_NUMBER)
+        rand_numb2 = randint(MIN_NUMBER, MAX_NUMBER)
         question = f'{rand_numb1}  {rand_numb2}'
         correct_answer = str(gcd(rand_numb1, rand_numb2))
         quest_and_ans.append((question, correct_answer))

@@ -1,8 +1,8 @@
 import brain_games.engine
 from random import randint
 
-min_number = 1
-max_number = 80
+MIN_NUMBER = 1
+MAX_NUMBER = 80
 exercise = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
@@ -10,7 +10,7 @@ def main():
     attempts = 0
     quest_and_ans = []
     while attempts < brain_games.engine.ROUND_COUNT:
-        rand_numb = randint(min_number, max_number)
+        rand_numb = randint(MIN_NUMBER, MAX_NUMBER)
         question = str(rand_numb)
         correct_answer = 'yes' if is_prime(rand_numb) else 'no'
         quest_and_ans.append((question, correct_answer))
