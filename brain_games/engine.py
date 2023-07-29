@@ -18,4 +18,4 @@ def game_run(questions_and_answers, exercise):
             print(f"Let's try again, {name}!")
             return
         print('Correct!')
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {name}!')
