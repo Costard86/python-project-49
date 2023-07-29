@@ -24,7 +24,7 @@ def main():
     brain_games.engine.game_run(quest_and_ans, exercise)
 
 
-def to_calc(num1, num2, operate):
+def to_calc(num1: int, num2: int, operate: str) -> int:
     match operate:
         case '+': return num1 + num2
         case '-': return num1 - num2
