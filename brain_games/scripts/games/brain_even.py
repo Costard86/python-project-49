@@ -3,7 +3,7 @@ from random import randint
 
 MIN_NUMBER = 1
 MAX_NUMBER = 100
-exercise = "Answer 'yes' if the number is even, otherwise answer 'no'."
+exercise = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def main():
