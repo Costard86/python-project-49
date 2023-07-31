@@ -1,6 +1,6 @@
 ### Hexlet tests and linter status:
-[![Maintainability](https://api.codeclimate.com/v1/badges/275604e9d5fd7143aec5/maintainability)]  
-(https://codeclimate.com/github/Costard86/python-project-49/maintainability)
+[![Github Actions Status](https://github.com/hexlet-boilerplates/python-package/workflows/Python%20CI/badge.svg)](https://github.com/hexlet-boilerplates/python-package/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/275604e9d5fd7143aec5/maintainability)](https://codeclimate.com/github/Costard86/python-project-49/maintainability)
 
 
 brain-even:  
